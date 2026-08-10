@@ -1,1 +1,10 @@
+/* Force all element widths to calculate correctly with padding included */
+* {
+  box-sizing: border-box;
+}
 
+/* Force all images and videos to scale down to the size of a mobile screen */
+img, video, canvas {
+  max-width: 100% !important;
+  height: auto !important;
+}
