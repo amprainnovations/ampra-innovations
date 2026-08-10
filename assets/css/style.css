@@ -8,3 +8,20 @@ img, video, canvas {
   max-width: 100% !important;
   height: auto !important;
 }
+
+/* This code runs only on screens narrower than 768px (tablets and phones) */
+@media (max-width: 768px) {
+  
+  /* Replace .main-container with the actual class or ID name of your website's main wrapper */
+  .main-container, .wrapper, main, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+
+  /* Force side-by-side flex items to stack vertically on mobile */
+  .flex-container, .row {
+    flex-direction: column !important;
+  }
+}
