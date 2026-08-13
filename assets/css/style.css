@@ -1,6 +1,13 @@
 /* Responsive adjustments for mobile and tablet screens */
 @media (max-width: 768px) {
     
+    .container {
+        width: 100%;             /* Occupies the full width of the phone screen */
+        max-width: 1200px;       /* Keeps it bounded on large desktop monitors */
+        margin: 0 auto;          /* Centers the content horizontally */
+        box-sizing: border-box;  /* Ensures padding doesn't cause overflow */
+    }
+    
     /* 1. Stack the header layout vertically */
     header {
         flex-direction: column;
