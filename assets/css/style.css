@@ -67,6 +67,7 @@
     
     .portfolio-hero-content {
         max-width: 900px;
+        justify-content: center;            <!-- Prasad added this line -->
         margin: 0 auto;
     }
     
