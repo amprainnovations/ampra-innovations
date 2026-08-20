@@ -52,369 +52,369 @@
    Amol Dhanwat
    ========================================================= */
 
-.portfolio-profile {
-    width: 100%;
-}
-
-
-/* ---------------------------------------------------------
-   Hero
-   --------------------------------------------------------- */
-
-.portfolio-hero {
-    padding: 80px 0;
-}
-
-.portfolio-hero-content {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.portfolio-category,
-.section-label {
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    margin-bottom: 12px;
-}
-
-.portfolio-hero h1 {
-    font-size: 48px;
-    line-height: 1.15;
-    margin-bottom: 12px;
-}
-
-.portfolio-hero h2 {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-
-.portfolio-hero p {
-    max-width: 780px;
-    font-size: 18px;
-    line-height: 1.7;
-}
-
-.portfolio-meta {
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-.portfolio-actions {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-
-/* ---------------------------------------------------------
-   Buttons
-   --------------------------------------------------------- */
-
-.portfolio-profile .btn {
-    display: inline-block;
-    padding: 12px 22px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.2s ease;
-}
-
-.portfolio-profile .btn-primary {
-    background: #2563eb;
-    color: #ffffff;
-}
-
-.portfolio-profile .btn-primary:hover {
-    background: #1d4ed8;
-}
-
-.portfolio-profile .btn-secondary {
-    background: #e5e7eb;
-    color: #111827;
-}
-
-.portfolio-profile .btn-secondary:hover {
-    background: #d1d5db;
-}
-
-
-/* ---------------------------------------------------------
-   Sections
-   --------------------------------------------------------- */
-
-.portfolio-section {
-    padding: 70px 0;
-}
-
-.portfolio-section-light {
-    background: #f8fafc;
-}
-
-.section-heading {
-    margin-bottom: 40px;
-}
-
-.section-heading h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.section-heading p {
-    max-width: 700px;
-    line-height: 1.6;
-}
-
-
-/* ---------------------------------------------------------
-   Overview
-   --------------------------------------------------------- */
-
-.profile-overview {
-    max-width: 900px;
-    margin: auto;
-}
-
-.profile-overview p {
-    font-size: 17px;
-    line-height: 1.8;
-    margin-bottom: 18px;
-}
-
-
-/* ---------------------------------------------------------
-   Grid
-   --------------------------------------------------------- */
-
-.portfolio-grid {
-    display: grid;
-    gap: 25px;
-}
-
-.portfolio-grid-2 {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.portfolio-grid-3 {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-
-/* ---------------------------------------------------------
-   Technical Skill Cards
-   --------------------------------------------------------- */
-
-.portfolio-card {
-    padding: 30px;
-    background: #ffffff;
-    border-radius: 10px;
-    border: 1px solid #e5e7eb;
-    transition: transform 0.2s ease,
-                box-shadow 0.2s ease;
-}
-
-.portfolio-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-}
-
-.portfolio-card-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    min-width: 60px;
-    height: 40px;
-
-    padding: 0 10px;
-
-    border-radius: 6px;
-
-    background: #eff6ff;
-    color: #2563eb;
-
-    font-size: 12px;
-    font-weight: 700;
-
-    margin-bottom: 18px;
-}
-
-.portfolio-card h3 {
-    font-size: 21px;
-    margin-bottom: 15px;
-}
-
-
-/* ---------------------------------------------------------
-   Skill List
-   --------------------------------------------------------- */
-
-.skill-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.skill-list li {
-    padding: 7px 0;
-    border-bottom: 1px solid #f1f5f9;
-}
-
-.skill-list li:last-child {
-    border-bottom: none;
-}
-
-
-/* ---------------------------------------------------------
-   Expertise Cards
-   --------------------------------------------------------- */
-
-.expertise-card {
-    padding: 28px;
-
-    background: #ffffff;
-
-    border-left: 4px solid #2563eb;
-
-    border-radius: 8px;
-
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
-}
-
-.expertise-card h3 {
-    font-size: 20px;
-    margin-bottom: 12px;
-}
-
-.expertise-card p {
-    line-height: 1.7;
-}
-
-
-/* ---------------------------------------------------------
-   Technology Tags
-   --------------------------------------------------------- */
-
-.technology-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.technology-tags span {
-    display: inline-block;
-
-    padding: 9px 16px;
-
-    border-radius: 20px;
-
-    background: #ffffff;
-
-    border: 1px solid #dbeafe;
-
-    font-size: 14px;
-    font-weight: 600;
-}
-
-
-/* ---------------------------------------------------------
-   Education
-   --------------------------------------------------------- */
-
-.education-card {
-    max-width: 750px;
-
-    padding: 30px;
-
-    background: #ffffff;
-
-    border-radius: 10px;
-
-    border: 1px solid #e5e7eb;
-}
-
-.education-card h3 {
-    font-size: 21px;
-    margin-bottom: 8px;
-}
-
-
-/* ---------------------------------------------------------
-   Contact / LinkedIn
-   --------------------------------------------------------- */
-
-.portfolio-contact {
-    padding: 80px 0;
-    text-align: center;
-}
-
-.portfolio-contact-content {
-    max-width: 700px;
-    margin: auto;
-}
-
-.portfolio-contact h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-.portfolio-contact p {
-    margin-bottom: 25px;
-    line-height: 1.7;
-}
-
-
-/* ---------------------------------------------------------
-   Mobile
-   --------------------------------------------------------- */
-
-@media (max-width: 900px) {
-
-    .portfolio-grid-3 {
+    .portfolio-profile {
+        width: 100%;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Hero
+       --------------------------------------------------------- */
+    
+    .portfolio-hero {
+        padding: 80px 0;
+    }
+    
+    .portfolio-hero-content {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .portfolio-category,
+    .section-label {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        margin-bottom: 12px;
+    }
+    
+    .portfolio-hero h1 {
+        font-size: 48px;
+        line-height: 1.15;
+        margin-bottom: 12px;
+    }
+    
+    .portfolio-hero h2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-hero p {
+        max-width: 780px;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    
+    .portfolio-meta {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    .portfolio-actions {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Buttons
+       --------------------------------------------------------- */
+    
+    .portfolio-profile .btn {
+        display: inline-block;
+        padding: 12px 22px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.2s ease;
+    }
+    
+    .portfolio-profile .btn-primary {
+        background: #2563eb;
+        color: #ffffff;
+    }
+    
+    .portfolio-profile .btn-primary:hover {
+        background: #1d4ed8;
+    }
+    
+    .portfolio-profile .btn-secondary {
+        background: #e5e7eb;
+        color: #111827;
+    }
+    
+    .portfolio-profile .btn-secondary:hover {
+        background: #d1d5db;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Sections
+       --------------------------------------------------------- */
+    
+    .portfolio-section {
+        padding: 70px 0;
+    }
+    
+    .portfolio-section-light {
+        background: #f8fafc;
+    }
+    
+    .section-heading {
+        margin-bottom: 40px;
+    }
+    
+    .section-heading h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .section-heading p {
+        max-width: 700px;
+        line-height: 1.6;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Overview
+       --------------------------------------------------------- */
+    
+    .profile-overview {
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    .profile-overview p {
+        font-size: 17px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Grid
+       --------------------------------------------------------- */
+    
+    .portfolio-grid {
+        display: grid;
+        gap: 25px;
+    }
+    
+    .portfolio-grid-2 {
         grid-template-columns: repeat(2, 1fr);
     }
-
-}
-
-
-@media (max-width: 650px) {
-
-    .portfolio-hero {
-        padding: 55px 0;
-    }
-
-    .portfolio-hero h1 {
-        font-size: 36px;
-    }
-
-    .portfolio-hero h2 {
-        font-size: 20px;
-    }
-
-    .portfolio-hero p {
-        font-size: 16px;
-    }
-
-    .portfolio-grid-2,
+    
     .portfolio-grid-3 {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
-
-    .portfolio-section {
-        padding: 50px 0;
+    
+    
+    /* ---------------------------------------------------------
+       Technical Skill Cards
+       --------------------------------------------------------- */
+    
+    .portfolio-card {
+        padding: 30px;
+        background: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #e5e7eb;
+        transition: transform 0.2s ease,
+                    box-shadow 0.2s ease;
     }
-
-    .section-heading h2 {
-        font-size: 27px;
+    
+    .portfolio-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
     }
-
-    .portfolio-actions {
-        flex-direction: column;
-        align-items: flex-start;
+    
+    .portfolio-card-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    
+        min-width: 60px;
+        height: 40px;
+    
+        padding: 0 10px;
+    
+        border-radius: 6px;
+    
+        background: #eff6ff;
+        color: #2563eb;
+    
+        font-size: 12px;
+        font-weight: 700;
+    
+        margin-bottom: 18px;
     }
-
-}
+    
+    .portfolio-card h3 {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Skill List
+       --------------------------------------------------------- */
+    
+    .skill-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .skill-list li {
+        padding: 7px 0;
+        border-bottom: 1px solid #f1f5f9;
+    }
+    
+    .skill-list li:last-child {
+        border-bottom: none;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Expertise Cards
+       --------------------------------------------------------- */
+    
+    .expertise-card {
+        padding: 28px;
+    
+        background: #ffffff;
+    
+        border-left: 4px solid #2563eb;
+    
+        border-radius: 8px;
+    
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .expertise-card h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    
+    .expertise-card p {
+        line-height: 1.7;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Technology Tags
+       --------------------------------------------------------- */
+    
+    .technology-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    
+    .technology-tags span {
+        display: inline-block;
+    
+        padding: 9px 16px;
+    
+        border-radius: 20px;
+    
+        background: #ffffff;
+    
+        border: 1px solid #dbeafe;
+    
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Education
+       --------------------------------------------------------- */
+    
+    .education-card {
+        max-width: 750px;
+    
+        padding: 30px;
+    
+        background: #ffffff;
+    
+        border-radius: 10px;
+    
+        border: 1px solid #e5e7eb;
+    }
+    
+    .education-card h3 {
+        font-size: 21px;
+        margin-bottom: 8px;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Contact / LinkedIn
+       --------------------------------------------------------- */
+    
+    .portfolio-contact {
+        padding: 80px 0;
+        text-align: center;
+    }
+    
+    .portfolio-contact-content {
+        max-width: 700px;
+        margin: auto;
+    }
+    
+    .portfolio-contact h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio-contact p {
+        margin-bottom: 25px;
+        line-height: 1.7;
+    }
+    
+    
+    /* ---------------------------------------------------------
+       Mobile
+       --------------------------------------------------------- */
+    
+    @media (max-width: 900px) {
+    
+        .portfolio-grid-3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+    }
+    
+    
+    @media (max-width: 650px) {
+    
+        .portfolio-hero {
+            padding: 55px 0;
+        }
+    
+        .portfolio-hero h1 {
+            font-size: 36px;
+        }
+    
+        .portfolio-hero h2 {
+            font-size: 20px;
+        }
+    
+        .portfolio-hero p {
+            font-size: 16px;
+        }
+    
+        .portfolio-grid-2,
+        .portfolio-grid-3 {
+            grid-template-columns: 1fr;
+        }
+    
+        .portfolio-section {
+            padding: 50px 0;
+        }
+    
+        .section-heading h2 {
+            font-size: 27px;
+        }
+    
+        .portfolio-actions {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+    }
 }
