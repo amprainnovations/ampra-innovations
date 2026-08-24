@@ -1,472 +1,593 @@
-<!--
-    Ampra Innovations - Portfolio
-    Amol Dhanwat Profile
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Industries Page</title>
+    <style>
+        /* Reset defaults */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    This page is designed to be used with the
-    existing Ampra Innovations header, navigation,
-    footer and common CSS.
--->
+        body, html {
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-<main class="portfolio-profile">
+        /* Background Image Setup */
+        .hero-background {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://amprainnovations.github.io/amprainnovations');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+        }
 
-    <!-- =========================
-         Profile Hero
-         ========================= -->
-    <section class="portfolio-hero">
+        /* Navigation Bar Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background-color: rgba(0, 0, 0, 0.3); /* Subtle dark overlay for readability */
+            backdrop-filter: blur(5px); /* Soft blur effect */
+        }
 
-        <div class="container">
+        /* Company Name Logo */
+        .company-logo h1 {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
 
-            <div class="portfolio-hero-content">
+        /* Horizontal Menu Items */
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
 
-                <div class="portfolio-profile-intro">
+        .nav-menu li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
 
-                    <span class="portfolio-category">
-                        SOFTWARE & EMBEDDED SYSTEMS
-                    </span>
+        /* Hover Effect for Menu Links */
+        .nav-menu li a:hover {
+            color: #00adb5; 
+        }
 
-                    <h1>Amol Dhanwat</h1>
+        /* Main Welcome Content Area */
+        .welcome-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: calc(100vh - 80px); /* Subtract header height */
+            color: #ffffff;
+            padding: 0 20px;
+        }
 
-                    <h2>
-                        Software & Embedded Systems Professional
-                    </h2>
+        .welcome-content h2 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
 
-                    <p>
-                        Experienced software professional with strong
-                        expertise in C and C++ development, embedded
-                        software, Linux/Unix and Windows environments,
-                        system programming and application development.
-                    </p>
+        .welcome-content p {
+            font-size: 18px;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
 
-                    <div class="portfolio-meta">
-                        <span>📍 Pune, Maharashtra, India</span>
+    <!-- Full Page Background Wrapper -->
+    <div class="hero-background">
+        
+        <!-- Header containing Company Name and Horizontal Menu -->
+        <header>
+            <div class="company-logo">
+                <h1>Ampra Innovations</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+<!--                    <li><a href="projects.html">Projects</a></li>
+-->                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--
+            Ampra Innovations - Portfolio
+            Amol Dhanwat Profile
+        
+            This page is designed to be used with the
+            existing Ampra Innovations header, navigation,
+            footer and common CSS.
+        -->
+        
+        <main class="portfolio-profile">
+        
+            <!-- =========================
+                 Profile Hero
+                 ========================= -->
+            <section class="portfolio-hero">
+        
+                <div class="container">
+        
+                    <div class="portfolio-hero-content">
+        
+                        <div class="portfolio-profile-intro">
+        
+                            <span class="portfolio-category">
+                                SOFTWARE & EMBEDDED SYSTEMS
+                            </span>
+        
+                            <h1>Amol Dhanwat</h1>
+        
+                            <h2>
+                                Software & Embedded Systems Professional
+                            </h2>
+        
+                            <p>
+                                Experienced software professional with strong
+                                expertise in C and C++ development, embedded
+                                software, Linux/Unix and Windows environments,
+                                system programming and application development.
+                            </p>
+        
+                            <div class="portfolio-meta">
+                                <span>📍 Pune, Maharashtra, India</span>
+                            </div>
+        
+                            <div class="portfolio-actions">
+        
+                                <a
+                                    href="https://www.linkedin.com/in/amol-dhanwat-733b5324/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-primary">
+                                    LinkedIn Profile
+                                </a>
+        
+                                <a
+                                    href="portfolio.html"
+                                    class="btn btn-secondary">
+                                    ← Back to Portfolio
+                                </a>
+        
+                            </div>
+        
+                        </div>
+        
                     </div>
-
-                    <div class="portfolio-actions">
-
+        
+                </div>
+        
+            </section>
+        
+        
+            <!-- =========================
+                 Professional Overview
+                 ========================= -->
+            <section class="portfolio-section">
+        
+                <div class="container">
+        
+                    <div class="section-heading">
+        
+                        <span class="section-label">
+                            PROFILE
+                        </span>
+        
+                        <h2>Professional Overview</h2>
+        
+                    </div>
+        
+                    <div class="profile-overview">
+        
+                        <p>
+                            Amol Dhanwat is a software professional based in
+                            Pune, Maharashtra, with extensive experience in
+                            C and C++ software development across multiple
+                            platforms and application domains.
+                        </p>
+        
+                        <p>
+                            His technical background includes embedded software
+                            development, Linux/Unix and Windows environments,
+                            data structures, algorithms and system-oriented
+                            programming.
+                        </p>
+        
+                        <p>
+                            His experience also includes Android-focused
+                            development and Java-based application development,
+                            along with exposure to Python and Visual Basic for
+                            application development, scripting and automation.
+                        </p>
+        
+                        <p>
+                            Amol has also been involved in technical knowledge
+                            sharing and training, particularly around C/C++,
+                            data structures, algorithms and software development.
+                        </p>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        
+        
+            <!-- =========================
+                 Core Technical Skills
+                 ========================= -->
+            <section class="portfolio-section portfolio-section-light">
+        
+                <div class="container">
+        
+                    <div class="section-heading">
+        
+                        <span class="section-label">
+                            TECHNOLOGY
+                        </span>
+        
+                        <h2>Core Technical Skills</h2>
+        
+                    </div>
+        
+        
+                    <div class="portfolio-grid portfolio-grid-3">
+        
+        
+                        <!-- Programming -->
+                        <div class="portfolio-card">
+        
+                            <div class="portfolio-card-icon">
+                                C/C++
+                            </div>
+        
+                            <h3>Programming</h3>
+        
+                            <ul class="skill-list">
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Visual Basic</li>
+                            </ul>
+        
+                        </div>
+        
+        
+                        <!-- Platforms -->
+                        <div class="portfolio-card">
+        
+                            <div class="portfolio-card-icon">
+                                OS
+                            </div>
+        
+                            <h3>Platforms</h3>
+        
+                            <ul class="skill-list">
+                                <li>Embedded Systems</li>
+                                <li>Linux / Unix</li>
+                                <li>Windows</li>
+                                <li>Android</li>
+                                <li>System Software</li>
+                            </ul>
+        
+                        </div>
+        
+        
+                        <!-- Software -->
+                        <div class="portfolio-card">
+        
+                            <div class="portfolio-card-icon">
+                                DEV
+                            </div>
+        
+                            <h3>Software Engineering</h3>
+        
+                            <ul class="skill-list">
+                                <li>Data Structures</li>
+                                <li>Algorithms</li>
+                                <li>Application Development</li>
+                                <li>Embedded Software</li>
+                                <li>Problem Solving</li>
+                            </ul>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        
+        
+            <!-- =========================
+                 Areas of Expertise
+                 ========================= -->
+            <section class="portfolio-section">
+        
+                <div class="container">
+        
+                    <div class="section-heading">
+        
+                        <span class="section-label">
+                            EXPERTISE
+                        </span>
+        
+                        <h2>Areas of Expertise</h2>
+        
+                        <p>
+                            Technical areas covering software, embedded and
+                            system-level development.
+                        </p>
+        
+                    </div>
+        
+        
+                    <div class="portfolio-grid portfolio-grid-2">
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                Embedded Software Development
+                            </h3>
+        
+                            <p>
+                                Development of software for embedded platforms
+                                using C and C++, with focus on system-oriented
+                                programming and application logic.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                C / C++ Development
+                            </h3>
+        
+                            <p>
+                                Strong programming experience in C and C++,
+                                including data structures, algorithms and
+                                software development across different platforms.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                Linux & Unix Development
+                            </h3>
+        
+                            <p>
+                                Experience developing software in Linux/Unix
+                                environments with exposure to system-level
+                                and platform-oriented programming.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                Windows Development
+                            </h3>
+        
+                            <p>
+                                Experience developing software and applications
+                                for Windows-based environments.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                Android Development
+                            </h3>
+        
+                            <p>
+                                Experience with Android-focused application
+                                development and Java-based software development.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                Data Structures & Algorithms
+                            </h3>
+        
+                            <p>
+                                Experience applying data structures and
+                                algorithms to software development and
+                                problem-solving challenges.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                Technical Training
+                            </h3>
+        
+                            <p>
+                                Experience in technical knowledge sharing and
+                                training, particularly in C/C++, programming
+                                fundamentals, data structures and algorithms.
+                            </p>
+        
+                        </div>
+        
+        
+                        <div class="expertise-card">
+        
+                            <h3>
+                                System-Oriented Programming
+                            </h3>
+        
+                            <p>
+                                Experience working with software close to the
+                                operating system and platform, with emphasis
+                                on performance, reliability and problem solving.
+                            </p>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        
+        
+            <!-- =========================
+                 Technology Tags
+                 ========================= -->
+            <section class="portfolio-section portfolio-section-light">
+        
+                <div class="container">
+        
+                    <div class="section-heading">
+        
+                        <span class="section-label">
+                            TECHNOLOGIES
+                        </span>
+        
+                        <h2>Technology Stack</h2>
+        
+                    </div>
+        
+        
+                    <div class="technology-tags">
+        
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>Embedded C</span>
+                        <span>Linux</span>
+                        <span>Unix</span>
+                        <span>Windows</span>
+                        <span>Android</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>Data Structures</span>
+                        <span>Algorithms</span>
+                        <span>System Programming</span>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        
+        
+            <!-- =========================
+                 Education
+                 ========================= -->
+            <section class="portfolio-section">
+        
+                <div class="container">
+        
+                    <div class="section-heading">
+        
+                        <span class="section-label">
+                            EDUCATION
+                        </span>
+        
+                        <h2>Education</h2>
+        
+                    </div>
+        
+        
+                    <div class="education-card">
+        
+                        <h3>
+                            Master of Computer Applications (M.C.A.)
+                        </h3>
+        
+                        <p>
+                            University of Pune
+                        </p>
+        
+                    </div>
+        
+                </div>
+        
+            </section>
+        
+        
+            <!-- =========================
+                 Professional Profile
+                 ========================= -->
+            <section class="portfolio-contact">
+        
+                <div class="container">
+        
+                    <div class="portfolio-contact-content">
+        
+                        <span class="section-label">
+                            PROFESSIONAL PROFILE
+                        </span>
+        
+                        <h2>
+                            Connect with Amol Dhanwat
+                        </h2>
+        
+                        <p>
+                            Visit the professional profile for additional
+                            information about Amol's experience and background.
+                        </p>
+        
                         <a
                             href="https://www.linkedin.com/in/amol-dhanwat-733b5324/"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="btn btn-primary">
-                            LinkedIn Profile
+                            View LinkedIn Profile
                         </a>
-
-                        <a
-                            href="portfolio.html"
-                            class="btn btn-secondary">
-                            ← Back to Portfolio
-                        </a>
-
+        
                     </div>
-
+        
                 </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         Professional Overview
-         ========================= -->
-    <section class="portfolio-section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="section-label">
-                    PROFILE
-                </span>
-
-                <h2>Professional Overview</h2>
-
-            </div>
-
-            <div class="profile-overview">
-
-                <p>
-                    Amol Dhanwat is a software professional based in
-                    Pune, Maharashtra, with extensive experience in
-                    C and C++ software development across multiple
-                    platforms and application domains.
-                </p>
-
-                <p>
-                    His technical background includes embedded software
-                    development, Linux/Unix and Windows environments,
-                    data structures, algorithms and system-oriented
-                    programming.
-                </p>
-
-                <p>
-                    His experience also includes Android-focused
-                    development and Java-based application development,
-                    along with exposure to Python and Visual Basic for
-                    application development, scripting and automation.
-                </p>
-
-                <p>
-                    Amol has also been involved in technical knowledge
-                    sharing and training, particularly around C/C++,
-                    data structures, algorithms and software development.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         Core Technical Skills
-         ========================= -->
-    <section class="portfolio-section portfolio-section-light">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="section-label">
-                    TECHNOLOGY
-                </span>
-
-                <h2>Core Technical Skills</h2>
-
-            </div>
-
-
-            <div class="portfolio-grid portfolio-grid-3">
-
-
-                <!-- Programming -->
-                <div class="portfolio-card">
-
-                    <div class="portfolio-card-icon">
-                        C/C++
-                    </div>
-
-                    <h3>Programming</h3>
-
-                    <ul class="skill-list">
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Visual Basic</li>
-                    </ul>
-
-                </div>
-
-
-                <!-- Platforms -->
-                <div class="portfolio-card">
-
-                    <div class="portfolio-card-icon">
-                        OS
-                    </div>
-
-                    <h3>Platforms</h3>
-
-                    <ul class="skill-list">
-                        <li>Embedded Systems</li>
-                        <li>Linux / Unix</li>
-                        <li>Windows</li>
-                        <li>Android</li>
-                        <li>System Software</li>
-                    </ul>
-
-                </div>
-
-
-                <!-- Software -->
-                <div class="portfolio-card">
-
-                    <div class="portfolio-card-icon">
-                        DEV
-                    </div>
-
-                    <h3>Software Engineering</h3>
-
-                    <ul class="skill-list">
-                        <li>Data Structures</li>
-                        <li>Algorithms</li>
-                        <li>Application Development</li>
-                        <li>Embedded Software</li>
-                        <li>Problem Solving</li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         Areas of Expertise
-         ========================= -->
-    <section class="portfolio-section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="section-label">
-                    EXPERTISE
-                </span>
-
-                <h2>Areas of Expertise</h2>
-
-                <p>
-                    Technical areas covering software, embedded and
-                    system-level development.
-                </p>
-
-            </div>
-
-
-            <div class="portfolio-grid portfolio-grid-2">
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        Embedded Software Development
-                    </h3>
-
-                    <p>
-                        Development of software for embedded platforms
-                        using C and C++, with focus on system-oriented
-                        programming and application logic.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        C / C++ Development
-                    </h3>
-
-                    <p>
-                        Strong programming experience in C and C++,
-                        including data structures, algorithms and
-                        software development across different platforms.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        Linux & Unix Development
-                    </h3>
-
-                    <p>
-                        Experience developing software in Linux/Unix
-                        environments with exposure to system-level
-                        and platform-oriented programming.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        Windows Development
-                    </h3>
-
-                    <p>
-                        Experience developing software and applications
-                        for Windows-based environments.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        Android Development
-                    </h3>
-
-                    <p>
-                        Experience with Android-focused application
-                        development and Java-based software development.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        Data Structures & Algorithms
-                    </h3>
-
-                    <p>
-                        Experience applying data structures and
-                        algorithms to software development and
-                        problem-solving challenges.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        Technical Training
-                    </h3>
-
-                    <p>
-                        Experience in technical knowledge sharing and
-                        training, particularly in C/C++, programming
-                        fundamentals, data structures and algorithms.
-                    </p>
-
-                </div>
-
-
-                <div class="expertise-card">
-
-                    <h3>
-                        System-Oriented Programming
-                    </h3>
-
-                    <p>
-                        Experience working with software close to the
-                        operating system and platform, with emphasis
-                        on performance, reliability and problem solving.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         Technology Tags
-         ========================= -->
-    <section class="portfolio-section portfolio-section-light">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="section-label">
-                    TECHNOLOGIES
-                </span>
-
-                <h2>Technology Stack</h2>
-
-            </div>
-
-
-            <div class="technology-tags">
-
-                <span>C</span>
-                <span>C++</span>
-                <span>Embedded C</span>
-                <span>Linux</span>
-                <span>Unix</span>
-                <span>Windows</span>
-                <span>Android</span>
-                <span>Java</span>
-                <span>Python</span>
-                <span>Data Structures</span>
-                <span>Algorithms</span>
-                <span>System Programming</span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         Education
-         ========================= -->
-    <section class="portfolio-section">
-
-        <div class="container">
-
-            <div class="section-heading">
-
-                <span class="section-label">
-                    EDUCATION
-                </span>
-
-                <h2>Education</h2>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <h3>
-                    Master of Computer Applications (M.C.A.)
-                </h3>
-
-                <p>
-                    University of Pune
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- =========================
-         Professional Profile
-         ========================= -->
-    <section class="portfolio-contact">
-
-        <div class="container">
-
-            <div class="portfolio-contact-content">
-
-                <span class="section-label">
-                    PROFESSIONAL PROFILE
-                </span>
-
-                <h2>
-                    Connect with Amol Dhanwat
-                </h2>
-
-                <p>
-                    Visit the professional profile for additional
-                    information about Amol's experience and background.
-                </p>
-
-                <a
-                    href="https://www.linkedin.com/in/amol-dhanwat-733b5324/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn btn-primary">
-                    View LinkedIn Profile
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-</main>
+        
+            </section>
+        
+        </main>
+    </div>
+</body>
+</html>
